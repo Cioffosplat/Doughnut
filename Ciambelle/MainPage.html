@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ciambelle</title>
+    <link rel="icon" type="image/x-icon" href="DoughnutIcon.ico" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-image: url("Doughnut.jpg");
+            background-size: cover;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: row;
+            height: 25px;
+        }
+        .button-container button {
+            flex-grow: 1;
+            border: none;
+            background-color: #FFFFFF;
+            color: #000000;
+            font-size: 16px;
+            cursor: pointer;
+            outline: none;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        .button1:hover {
+            background-color: #ADB9AD;
+            cursor: pointer;
+        }
+        .button2:hover {
+            background-color: #A99CB6;
+            cursor: pointer;
+        }
+        .button3:hover {
+            background-color: #7DA0B4;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="button-container">
+    <button class="button1" onclick="location.href='History.html'">Storia</button>
+    <button class="button2" onclick="location.href='Products.html'">Prodotti/Menu</button>
+    <button class="button3" onclick="location.href='Gallery.html'">Galleria Immagini</button>
+</div>
+</body>
+</html>
