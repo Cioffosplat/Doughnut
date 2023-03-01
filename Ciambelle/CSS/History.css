@@ -31,3 +31,8 @@ body, html {
     background-color: #7DA0B4;
     cursor: pointer;
 }
+.paragraphs{
+    font-family: "Comic Sans MS", cursive, Papyrus;
+    font-size: 14px;
+    color: #FFFFFF;
+}
