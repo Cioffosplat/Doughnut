@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-image: url("Images/BackgroundLilliac.jpeg");
+    background-color: #FDDFC5;
     background-size: cover;
 }
 .button-container {
@@ -12,8 +12,8 @@ body, html {
 .button-container button {
     flex-grow: 1;
     border: none;
-    background-color: #A99CB6;
-    color: #FFF;
+    background-color: #FDDFC5;
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
     outline: none;
@@ -34,19 +34,21 @@ body, html {
 .paragraphs{
     font-family: "Comic Sans MS", cursive, Papyrus;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #000000;
+    text-align: center;
 }
 
 .headers{
     font-family: "Comic Sans MS", cursive, Papyrus;
     font-size: 18px;
-    color: #FFFFFF;
+    text-align: center;
+    color: #000000;
 }
 .footer{
     font-family: "Comic Sans MS", cursive, Papyrus;
     font-size: 18px;
-    color: #FFFFFF;
-    background-color: #A99CB6;
+    color: #000000;
+    background-color: #FDDFC5;
     padding: 10px;
     position: fixed;
     bottom: 0;
@@ -65,4 +67,11 @@ body, html {
     height: 100%;
     width: 100%;
     vertical-align: middle;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

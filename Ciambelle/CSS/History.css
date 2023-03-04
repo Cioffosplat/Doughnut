@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    background-image: url("Images/BackgroundSage.jpg");
+    background-color: #FFC8CD;
     background-size: cover;
 }
 .button-container {
@@ -12,8 +12,8 @@ body, html {
 .button-container button {
     flex-grow: 1;
     border: none;
-    background-color: #ADB9AD;
-    color: #FFF;
+    background-color: #FFC8CD;
+    color: #000000;
     font-size: 16px;
     cursor: pointer;
     outline: none;
@@ -34,18 +34,20 @@ body, html {
 .paragraphs{
     font-family: "Comic Sans MS", cursive, Papyrus;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #000000;
+    text-align: center;
 }
 .headers{
     font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 18px;
-    color: #FFFFFF;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
 }
 .footer{
     font-family: "Comic Sans MS", cursive, Papyrus;
     font-size: 18px;
-    color: #FFFFFF;
-    background-color: #ADB9AD;
+    color: #000000;
+    background-color: #FFC8CD;
     padding: 10px;
     position: fixed;
     bottom: 0;
