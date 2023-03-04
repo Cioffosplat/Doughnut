@@ -36,3 +36,32 @@ body, html {
     font-size: 14px;
     color: #FFFFFF;
 }
+.headers{
+    font-family: "Comic Sans MS", cursive, Papyrus;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.footer{
+    font-family: "Comic Sans MS", cursive, Papyrus;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #ADB9AD;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footerA{
+    display: inline-block;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footerAImage{
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}

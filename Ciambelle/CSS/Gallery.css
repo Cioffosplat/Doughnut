@@ -31,3 +31,27 @@ body, html {
     background-color: #ADB9AD;
     cursor: pointer;
 }
+.footer{
+    font-family: "Comic Sans MS", cursive, Papyrus;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #7DA0B4;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footerA{
+    display: inline-block;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.footerAImage{
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
