@@ -7,6 +7,8 @@
     <link rel = "stylesheet" href="CSS/MainPage.css">
 </head>
 <body>
+<ul id ="lista">
+</ul>
 <div class="button-container">
     <button class="button1" onclick="location.href='History.html'">Historia</button>
     <button class="button2" onclick="location.href='Products.html'">Sostenibilidad</button>
@@ -19,4 +21,12 @@
     <a class ="footerA" target="_blank" href="https://www.tiktok.com/"><img class="footerAImage" src="CSS/Images/TikTok.jfif" alt="TikTok"></a>
 </footer>
 </body>
+<script>
+    <!--script utilizzato per modificare parti del progetto html-->
+    console.log(document.querySelector('.Title'));
+    console.log(document.querySelectorAll('.footerA'));
+    const array = ['uno','2','three'];
+    const myList = document.querySelector('#list');
+    myList.innerText = array.map(i => `<li class = "li" >${i}</li>`);
+</script>
 </html>
