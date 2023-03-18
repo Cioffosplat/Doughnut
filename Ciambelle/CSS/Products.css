@@ -6,8 +6,10 @@ body, html {
 }
 .button-container {
     display: flex;
-    flex-direction: row;
-    height: 25px;
+    flex-direction: column;
+    height: 500px;
+    float: left;
+    width: 300px;
 }
 .button-container button {
     flex-grow: 1;
@@ -20,15 +22,15 @@ body, html {
     font-family: "Comic Sans MS", cursive, Papyrus;
 }
 .button1:hover {
-    background-color: #ADB9AD;
+    background-color: #FFFFFF;
     cursor: pointer;
 }
 .button2:hover {
-    background-color: #E1D0C9;
+    background-color: #FFC8CD;
     cursor: pointer;
 }
 .button3:hover {
-    background-color: #7DA0B4;
+    background-color: #FFC8CD;
     cursor: pointer;
 }
 .paragraphs{
@@ -40,9 +42,11 @@ body, html {
 
 .headers{
     font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 18px;
-    text-align: center;
+    font-size: 52px;
     color: #000000;
+    background-color: #FDDFC7;
+    text-align: right;
+    padding-right: 320px;
 }
 .footer{
     font-family: "Comic Sans MS", cursive, Papyrus;
@@ -73,5 +77,5 @@ body, html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 }
