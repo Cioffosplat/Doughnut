@@ -92,9 +92,10 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 35px;
+    width: 30px;
     height: 22px;
     cursor: pointer;
+    padding-bottom: 5px;
 }
 
 .menu-button span {
