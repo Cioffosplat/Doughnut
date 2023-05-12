@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donuts</title>
+    <link rel="icon" type="image/x-icon" href="DoughnutIcon.ico" />
+    <link rel = "stylesheet" href="CSS/Index.css">
+</head>
+<body>
+<h1 class = "titoli">Donuts - Historia, Sostenibilidad, Menù e Socials</h1>
+<ul id ="lista">
+</ul>
+<div class="hamburger-menu">
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <ul class="menu">
+        <li><a href="Products.html">Sostenibilidad</a></li>
+        <li><a href="History.html">Historia</a></li>
+        <li><a href="Gallery.html">Menú y tiendas</a></li>
+    </ul>
+</div>
+
+<div class ="video-container">
+    <video class="video" width="1200" height="720" src="Usefull%20Stuff/Doughnut_Promotional.mp4"  controls autoplay ></video>
+</div>
+<footer class="footer">
+    Socials:
+    <a class ="footerA" target="_blank" href="https://www.instagram.com/"><img class="footerAImage" src="CSS/Images/Instagram.png" alt="Instagram"></a>
+    <a class ="footerA" target="_blank" href="https://www.twitter.com/"><img class="footerAImage" src="CSS/Images/Twitter.png" alt="Twitter"></a>
+    <a class ="footerA" target="_blank" href="https://www.tiktok.com/"><img class="footerAImage" src="CSS/Images/TikTok.jfif" alt="TikTok"></a>
+</footer>
+</body>
+<script>
+    <!--script utilizzato per modificare parti del progetto html-->
+    console.log(document.querySelector('.Title'));
+    console.log(document.querySelectorAll('.footerA'));
+    const array = ['uno','2','three'];
+    const myList = document.querySelector('#list');
+    myList.innerText = array.map(i => `<li class = "li" >${i}</li>`);
+</script>
+</html>
