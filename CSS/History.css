@@ -4,61 +4,33 @@ body, html {
     background-color: #FFC8CD;
     background-size: cover;
 }
-.button-container {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    float: left;
-    width: 300px;
-}
-.button-container button {
-    flex-grow: 1;
-    border: none;
-    background-color: #FFC8CD;
-    color: #000000;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-    font-family: "Comic Sans MS", cursive, Papyrus;
-}
-.button1:hover {
-    background-color: #FFFFFF;
-    cursor: pointer;
-}
-.button2:hover {
-    background-color: #FDDFC7;
-    cursor: pointer;
-}
-.button3:hover {
-    background-color: #FDDFC7;
-    cursor: pointer;
-}
 .paragraphs{
-    font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 14px;
+    font-family: 'Foldit', cursive;
+    font-size: 23px;
     color: #000000;
     text-align: center;
 }
 .headers{
-    font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 52px;
+    font-family: 'Foldit', cursive;
+    font-size: 55px;
     color: #000000;
     background-color: #FFC8CD;
     text-align: right;
-    padding-right: 570px;
+    padding-right: 42%;
 }
 .footer{
-    font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 18px;
+    font-family: 'Foldit', cursive;
+    font-size: 30px;
     color: #000000;
     background-color: #FFC8CD;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 50px;
 }
 .footerA{
-    display: inline-block;
+    display: none;
     margin-right: 20px;
     height: 50px;
     width: 50px;
@@ -120,8 +92,8 @@ body, html {
 .menu li a {
     color: #000;
     text-decoration: none;
-    font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 16px;
+    font-family: 'Foldit', cursive;
+    font-size: 24px;
 }
 
 input[type="checkbox"] {
@@ -131,4 +103,12 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked ~ .menu {
     opacity: 1;
     visibility: visible;
+}
+.Arrow{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    height: 20%;
+    top: 5px;
+    cursor: pointer;
 }

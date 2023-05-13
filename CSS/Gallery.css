@@ -3,48 +3,21 @@ body, html {
     padding: 0;
     background-color: #FDDFC7;
     background-size: cover;
-}
-.button-container {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    float: left;
-    width: 250px;
-}
-.button-container button {
-    flex-grow: 1;
-    border: none;
-    background-color: #FDDFC7;
-    color: #000000;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-    font-family: "Comic Sans MS", cursive, Papyrus;
-}
-.button1:hover {
-    background-color: #FFFFFF;
-    cursor: pointer;
-}
-.button2:hover {
-    background-color: #FFC8CD;
-    cursor: pointer;
-}
-.button3:hover {
-    background-color: #FFC8CD;
-    cursor: pointer;
+    overflow: hidden;
 }
 .footer{
-    font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 18px;
+    font-family: 'Foldit', cursive;
+    font-size: 30px;
     color: #000000;
     background-color: #FDDFC7;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 50px;
 }
 .footerA{
-    display: inline-block;
+    display: none;
     margin-right: 20px;
     height: 50px;
     width: 50px;
@@ -59,23 +32,23 @@ body, html {
 }
 .paragraphs{
     position: relative;
-    font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 18px;
+    font-family: 'Foldit', cursive;
+    font-size: 20px;
     text-align: right;
     color: #000000;
-    padding-right: 300px;
+    padding-right: 27%;
     padding-top: 42%;
 }
 .Title{
-    font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 56px;
+    font-family: 'Foldit', cursive;
+    font-size: 55px;
     color: #000000;
     background-color: #FDDFC7;
     text-align: right;
-    padding-right: 530px;
+    padding-right: 40%;
 }
 .center {
-    position: absolute;
+    position: relative;
     margin-left: 5%;
 }
 .hamburger-menu {
@@ -95,8 +68,9 @@ body, html {
     width: 30px;
     height: 22px;
     cursor: pointer;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
+
 
 .menu-button span {
     display: block;
@@ -108,7 +82,7 @@ body, html {
 
 .menu {
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: -10px;
     background-color: #FDDFC5;
     padding: 15px;
@@ -128,8 +102,11 @@ body, html {
 .menu li a {
     color: #000;
     text-decoration: none;
-    font-family: "Comic Sans MS", cursive, Papyrus;
-    font-size: 16px;
+    font-family: 'Foldit', cursive;
+    font-size: 24px;
+}
+.menu li a:hover{
+    background-color: whitesmoke;
 }
 
 input[type="checkbox"] {
@@ -142,6 +119,8 @@ input[type="checkbox"]:checked ~ .menu {
 }
 
 .menu-dishes {
+    font-family: 'Foldit', cursive;
+    font-size: 20px;
     width: 200px;
     padding: 25px;
     background-color: #FDDFC7;
@@ -170,6 +149,8 @@ input[type="text"] {
 
 button {
     padding: 5px 10px;
+    font-family: 'Foldit', cursive;
+    font-size: 20px;
     background-color: deeppink;
     color: white;
     border: none;
@@ -189,4 +170,12 @@ ul {
 li {
     list-style: none;
     margin-bottom: 5px;
+}
+.Arrow{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    height: 20%;
+    top: 5px;
+    cursor: pointer;
 }
